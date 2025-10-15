@@ -1,0 +1,10 @@
+import numpy as np
+arr3d = np.random.randint(0, 21, (3, 3, 6))
+print("arr3d =")
+print(arr3d)
+print("shape:", arr3d.shape)
+print()
+arr2d = np.random.randint(0, 101, (5, 6))
+print("arr2d =")
+print(arr2d)
+print("shape:", arr2d.shape)
